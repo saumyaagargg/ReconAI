@@ -1,0 +1,26 @@
+{
+  "bank_21_ledger_17_0": {
+    "decision": "APPROVED",
+    "timestamp": "2026-09-02T19:20:36.738803",
+    "bank_id": "bank_21",
+    "ledger_id": "ledger_17"
+  },
+  "bank_21_ledger_18_1": {
+    "decision": "REJECTED",
+    "timestamp": "2026-09-02T19:25:09.857149",
+    "bank_id": "bank_21",
+    "ledger_id": "ledger_18"
+  },
+  "bank_33_ledger_29_2": {
+    "decision": "APPROVED",
+    "timestamp": "2026-09-04T16:00:49.816545",
+    "bank_id": "bank_33",
+    "ledger_id": "ledger_29"
+  },
+  "bank_51_ledger_48_3": {
+    "decision": "REJECTED",
+    "timestamp": "2026-09-04T16:01:35.825372",
+    "bank_id": "bank_51",
+    "ledger_id": "ledger_48"
+  }
+}

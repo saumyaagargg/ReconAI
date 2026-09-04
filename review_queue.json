@@ -1,0 +1,71 @@
+[
+  {
+    "bank_id": "bank_21",
+    "ledger_id": "ledger_17",
+    "llm_verdict": {
+      "match": true,
+      "confidence": 0.95,
+      "reason": "This candidate is an exact match for the party name and transaction date, with only a minor amount discrepancy of 30.0. The alternative candidate represents a completely different party and has a larger amount difference.",
+      "best_candidate_ref": "TXN1019-CAND1",
+      "ranked_alternatives": [
+        "TXN1019-CAND2"
+      ],
+      "is_top_recommendation": true
+    },
+    "status": "PENDING_HUMAN_REVIEW"
+  },
+  {
+    "bank_id": "bank_21",
+    "ledger_id": "ledger_18",
+    "llm_verdict": {
+      "match": false,
+      "confidence": 0,
+      "reason": "Not selected - AI recommended TXN1019-CAND1 instead",
+      "best_candidate_ref": "TXN1019-CAND1",
+      "ranked_alternatives": [
+        "TXN1019-CAND2"
+      ],
+      "is_top_recommendation": false
+    },
+    "status": "PENDING_HUMAN_REVIEW"
+  },
+  {
+    "bank_id": "bank_33",
+    "ledger_id": "ledger_29",
+    "llm_verdict": {
+      "match": true,
+      "confidence": 0.99,
+      "reason": "Perfect match on amount, reference, and party name with a reasonable 4-day date difference.",
+      "best_candidate_ref": "TXN1031",
+      "ranked_alternatives": [],
+      "is_top_recommendation": true
+    },
+    "status": "PENDING_HUMAN_REVIEW"
+  },
+  {
+    "bank_id": "bank_51",
+    "ledger_id": "ledger_48",
+    "llm_verdict": {
+      "match": null,
+      "confidence": 0,
+      "reason": "LLM call failed or returned invalid JSON: The read operation timed out",
+      "best_candidate_ref": null,
+      "ranked_alternatives": [],
+      "is_top_recommendation": false
+    },
+    "status": "PENDING_HUMAN_REVIEW"
+  },
+  {
+    "bank_id": "bank_60",
+    "ledger_id": "ledger_51",
+    "llm_verdict": {
+      "match": true,
+      "confidence": 0.98,
+      "reason": "The candidate has a perfect match on transaction reference, date, and party name, with only a minor amount difference of 27.0 on a large transaction, likely due to a fee or adjustment.",
+      "best_candidate_ref": "TXN1054",
+      "ranked_alternatives": [],
+      "is_top_recommendation": true
+    },
+    "status": "PENDING_HUMAN_REVIEW"
+  }
+]

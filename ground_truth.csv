@@ -1,0 +1,71 @@
+txn_id,bank_ref,ledger_ref,invoice_ref,scenario,explanation
+TXN1000,TXN1000,TXN1000,TXN1000,duplicate,bank shows this txn twice - must not double-count
+TXN1001,TXN1001,TXN1001,TXN1001,duplicate,bank shows this txn twice - must not double-count
+TXN1002,TXN1002,TXN1002,TXN1002,exact,"clean match, all fields identical"
+TXN1003,TX1N003,TXN1003,TXN1003,fuzzy_ref,bank ref 'TX1N003' vs ledger ref 'TXN1003' (data entry typo)
+TXN1004,TXN1004-A + TXN1004-B,TXN1004,TXN1004,split_payment,invoice paid via two separate bank txns
+TXN1005,TXN1005,MISSING,MISSING,missing_ledger,bank credit never recorded internally (needs investigation)
+TXN1006,TXN1006,TXN1006,TXN1006,exact,"clean match, all fields identical"
+TXN1007,TX1N007,TXN1007,TXN1007,fuzzy_ref,bank ref 'TX1N007' vs ledger ref 'TXN1007' (data entry typo)
+TXN1008,TXN1080,TXN1008,TXN1008,fuzzy_ref,bank ref 'TXN1080' vs ledger ref 'TXN1008' (data entry typo)
+TXN1009,TXN1009,TXN1009,TXN1009,fuzzy_amount,bank amount off by 2.0 (rounding/fee)
+TXN1010,TXN1010,MISSING,MISSING,missing_ledger,bank credit never recorded internally (needs investigation)
+TXN1011,TXN1011,TXN1011,TXN1011,fuzzy_amount,bank amount off by 1.0 (rounding/fee)
+TXN1012,TXN1012,TXN1012,TXN1012,fuzzy_amount,bank amount off by 2.0 (rounding/fee)
+TXN1013,MISSING,TXN1013,TXN1013,missing_bank,"invoiced and recorded, payment not yet received"
+TXN1014,TXN1014,TXN1014,TXN1014,fuzzy_amount,bank amount off by 2.0 (rounding/fee)
+TXN1015,TXN1015,TXN1015,TXN1015,fuzzy_amount,bank amount off by 1.0 (rounding/fee)
+TXN1016,TXN1016,TXN1016,TXN1016,fuzzy_date,bank date offset by -2 days (settlement lag)
+TXN1017,TXN1017,TXN1017,TXN1017,fuzzy_date,bank date offset by -2 days (settlement lag)
+TXN1018,TXN1018,TXN1018,TXN1018,fuzzy_date,bank date offset by 1 days (settlement lag)
+TXN1019,TXN1019,TXN1019-CAND1 (correct) vs TXN1019-CAND2 (decoy),MISSING,multi_candidate_ambiguous,"true match is TXN1019-CAND1 (same party 'Reid, Ferguson and Sanchez'); TXN1019-CAND2 is a same-amount-range decoy from a different party 'Gray Group' - tests whether party context, not just amount, drives the resolution"
+TXN1020,TXN1200,TXN1020,TXN1020,fuzzy_ref,bank ref 'TXN1200' vs ledger ref 'TXN1020' (data entry typo)
+TXN1021,TXN1021,TXN1021,TXN1021,exact,"clean match, all fields identical"
+TXN1022,MISSING,TXN1022,TXN1022,missing_bank,"invoiced and recorded, payment not yet received"
+TXN1023,MISSING,TXN1023,TXN1023,missing_bank,"invoiced and recorded, payment not yet received"
+TXN1024,TXN1024-A + TXN1024-B,TXN1024,TXN1024,split_payment,invoice paid via two separate bank txns
+TXN1025,TXN1025-A + TXN1025-B,TXN1025,TXN1025,split_payment,invoice paid via two separate bank txns
+TXN1026,TNX1026,TXN1026,TXN1026,fuzzy_ref,bank ref 'TNX1026' vs ledger ref 'TXN1026' (data entry typo)
+TXN1027,TXN1027,TXN1027,TXN1027,fuzzy_date,bank date offset by -2 days (settlement lag)
+TXN1028,TXN1028,TXN1028,TXN1028,fuzzy_date,bank date offset by 1 days (settlement lag)
+TXN1029,TXN1029,MISSING,MISSING,missing_ledger,bank credit never recorded internally (needs investigation)
+TXN1030,TXN1030,TXN1030,TXN1030,fuzzy_date,bank date offset by 0 days (settlement lag)
+TXN1031,TXN1031,TXN1031,TXN1031,date_lag_ambiguous,"bank entry lags ledger by 4 days (beyond the 2-day auto window) - plausible settlement delay, not auto-confirmable"
+TXN1032,TXN1032-A + TXN1032-B,TXN1032,TXN1032,split_payment,invoice paid via two separate bank txns
+TXN1033,TXN1033,TXN1033,TXN1033,fuzzy_date,bank date offset by -1 days (settlement lag)
+TXN1034,TXN1034,TXN1034,TXN1034,duplicate,bank shows this txn twice - must not double-count
+TXN1035,TXN1035,TXN1035,TXN1035,fuzzy_date,bank date offset by -1 days (settlement lag)
+TXN1036,TXN1036,TXN1036,TXN1036,fuzzy_amount,bank amount off by 2.0 (rounding/fee)
+TXN1037,TX1N037,TXN1037,TXN1037,fuzzy_ref,bank ref 'TX1N037' vs ledger ref 'TXN1037' (data entry typo)
+TXN1038,TXN1038,TXN1038,TXN1038,fuzzy_date,bank date offset by 1 days (settlement lag)
+TXN1039,TXN1039,TXN1039,TXN1039,exact,"clean match, all fields identical"
+TXN1040,TX1N040,TXN1040,TXN1040,fuzzy_ref,bank ref 'TX1N040' vs ledger ref 'TXN1040' (data entry typo)
+TXN1041,TXN1041,TXN1041,TXN1041,fuzzy_amount,bank amount off by 1.5 (rounding/fee)
+TXN1042,TXN1042,TXN1042,TXN1042,duplicate,bank shows this txn twice - must not double-count
+TXN1043,TXN1043,TXN1043,TXN1043,exact,"clean match, all fields identical"
+TXN1044,TXN1404,TXN1044,TXN1044,fuzzy_ref,bank ref 'TXN1404' vs ledger ref 'TXN1044' (data entry typo)
+TXN1045,TXN1045,TXN1045,TXN1045,exact,"clean match, all fields identical"
+TXN1046,TXN1046,MISSING,MISSING,missing_ledger,bank credit never recorded internally (needs investigation)
+TXN1047,TXN1047,TXN1047,TXN1047,duplicate,bank shows this txn twice - must not double-count
+TXN1048,TXN1048,TXN1048,TXN1048,duplicate,bank shows this txn twice - must not double-count
+TXN1049,TXN1049,TXN1049,TXN1049,exact,"clean match, all fields identical"
+TXN1050,TX1N050,TXN1050,TXN1050,fuzzy_ref,bank ref 'TX1N050' vs ledger ref 'TXN1050' (data entry typo)
+TXN1051,MISSING,TXN1051,TXN1051,missing_bank,"invoiced and recorded, payment not yet received"
+TXN1052,TXN1052,TXN1052,TXN1052,exact,"clean match, all fields identical"
+TXN1053,TXN1053,TXN1053,TXN1053,fuzzy_date,bank date offset by -2 days (settlement lag)
+TXN1054,TXN1054,TXN1054,TXN1054,close_amount_ambiguous,"bank amount off by Rs.27 (beyond auto-tolerance) - likely a bank fee or manual adjustment, needs human judgment"
+TXN1055,TXN1055-A + TXN1055-B,TXN1055,TXN1055,split_payment,invoice paid via two separate bank txns
+TXN1056,TXN1056-A + TXN1056-B,TXN1056,TXN1056,split_payment,invoice paid via two separate bank txns
+TXN1057,TXN1057-A + TXN1057-B,TXN1057,TXN1057,split_payment,invoice paid via two separate bank txns
+TXN1058,TXN1058,TXN1058,TXN1058,fuzzy_amount,bank amount off by 0.5 (rounding/fee)
+TXN1059,MISSING,TXN1059,TXN1059,missing_bank,"invoiced and recorded, payment not yet received"
+TXN1060,TXN1060,TXN1060,TXN1060,exact,"clean match, all fields identical"
+TXN1061,TXN1061,TXN1061,TXN1061,exact,"clean match, all fields identical"
+TXN1062,TXN1062,TXN1062,TXN1062,fuzzy_amount,bank amount off by 0.5 (rounding/fee)
+TXN1063,TX1N063,TXN1063,TXN1063,fuzzy_ref,bank ref 'TX1N063' vs ledger ref 'TXN1063' (data entry typo)
+TXN1064,TXN1064,TXN1064,TXN1064,exact,"clean match, all fields identical"
+TXN1065,TXN1065,TXN1065,TXN1065,fuzzy_date,bank date offset by -1 days (settlement lag)
+TXN1066,TXN1066,TXN1066,TXN1066,duplicate,bank shows this txn twice - must not double-count
+TXN1067,TXN1067,TXN1067,TXN1067,fuzzy_date,bank date offset by 1 days (settlement lag)
+TXN1068,TXN1068,TXN1068,TXN1068,fuzzy_amount,bank amount off by 2.0 (rounding/fee)
+TXN1069,TXN1069,MISSING,MISSING,missing_ledger,bank credit never recorded internally (needs investigation)

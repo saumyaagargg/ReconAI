@@ -1,0 +1,600 @@
+{
+  "total_bank_rows": 79,
+  "matched_bank_rows": 64,
+  "match_rate_pct": 81.0,
+  "matches": [
+    {
+      "bank_id": "bank_0",
+      "ledger_id": "ledger_0",
+      "method": "exact",
+      "confidence": 1.0,
+      "note": "exact match on ref, amount, date"
+    },
+    {
+      "bank_id": "bank_2",
+      "ledger_id": "ledger_1",
+      "method": "exact",
+      "confidence": 1.0,
+      "note": "exact match on ref, amount, date"
+    },
+    {
+      "bank_id": "bank_4",
+      "ledger_id": "ledger_2",
+      "method": "exact",
+      "confidence": 1.0,
+      "note": "exact match on ref, amount, date"
+    },
+    {
+      "bank_id": "bank_9",
+      "ledger_id": "ledger_5",
+      "method": "exact",
+      "confidence": 1.0,
+      "note": "exact match on ref, amount, date"
+    },
+    {
+      "bank_id": "bank_23",
+      "ledger_id": "ledger_20",
+      "method": "exact",
+      "confidence": 1.0,
+      "note": "exact match on ref, amount, date"
+    },
+    {
+      "bank_id": "bank_32",
+      "ledger_id": "ledger_28",
+      "method": "exact",
+      "confidence": 1.0,
+      "note": "exact match on ref, amount, date"
+    },
+    {
+      "bank_id": "bank_37",
+      "ledger_id": "ledger_32",
+      "method": "exact",
+      "confidence": 1.0,
+      "note": "exact match on ref, amount, date"
+    },
+    {
+      "bank_id": "bank_43",
+      "ledger_id": "ledger_37",
+      "method": "exact",
+      "confidence": 1.0,
+      "note": "exact match on ref, amount, date"
+    },
+    {
+      "bank_id": "bank_46",
+      "ledger_id": "ledger_40",
+      "method": "exact",
+      "confidence": 1.0,
+      "note": "exact match on ref, amount, date"
+    },
+    {
+      "bank_id": "bank_48",
+      "ledger_id": "ledger_41",
+      "method": "exact",
+      "confidence": 1.0,
+      "note": "exact match on ref, amount, date"
+    },
+    {
+      "bank_id": "bank_50",
+      "ledger_id": "ledger_43",
+      "method": "exact",
+      "confidence": 1.0,
+      "note": "exact match on ref, amount, date"
+    },
+    {
+      "bank_id": "bank_52",
+      "ledger_id": "ledger_44",
+      "method": "exact",
+      "confidence": 1.0,
+      "note": "exact match on ref, amount, date"
+    },
+    {
+      "bank_id": "bank_54",
+      "ledger_id": "ledger_45",
+      "method": "exact",
+      "confidence": 1.0,
+      "note": "exact match on ref, amount, date"
+    },
+    {
+      "bank_id": "bank_56",
+      "ledger_id": "ledger_46",
+      "method": "exact",
+      "confidence": 1.0,
+      "note": "exact match on ref, amount, date"
+    },
+    {
+      "bank_id": "bank_58",
+      "ledger_id": "ledger_49",
+      "method": "exact",
+      "confidence": 1.0,
+      "note": "exact match on ref, amount, date"
+    },
+    {
+      "bank_id": "bank_68",
+      "ledger_id": "ledger_57",
+      "method": "exact",
+      "confidence": 1.0,
+      "note": "exact match on ref, amount, date"
+    },
+    {
+      "bank_id": "bank_69",
+      "ledger_id": "ledger_58",
+      "method": "exact",
+      "confidence": 1.0,
+      "note": "exact match on ref, amount, date"
+    },
+    {
+      "bank_id": "bank_72",
+      "ledger_id": "ledger_61",
+      "method": "exact",
+      "confidence": 1.0,
+      "note": "exact match on ref, amount, date"
+    },
+    {
+      "bank_id": "bank_74",
+      "ledger_id": "ledger_63",
+      "method": "exact",
+      "confidence": 1.0,
+      "note": "exact match on ref, amount, date"
+    },
+    {
+      "bank_id": "bank_5",
+      "ledger_id": "ledger_3",
+      "method": "fuzzy",
+      "confidence": 0.86,
+      "note": "amount diff=0.0, date diff=0d, ref_sim=85.71428571428572"
+    },
+    {
+      "bank_id": "bank_10",
+      "ledger_id": "ledger_6",
+      "method": "fuzzy",
+      "confidence": 0.86,
+      "note": "amount diff=0.0, date diff=0d, ref_sim=85.71428571428572"
+    },
+    {
+      "bank_id": "bank_11",
+      "ledger_id": "ledger_7",
+      "method": "fuzzy",
+      "confidence": 0.86,
+      "note": "amount diff=0.0, date diff=0d, ref_sim=85.71428571428572"
+    },
+    {
+      "bank_id": "bank_12",
+      "ledger_id": "ledger_8",
+      "method": "fuzzy",
+      "confidence": 1.0,
+      "note": "amount diff=2.0, date diff=0d, ref_sim=100.0"
+    },
+    {
+      "bank_id": "bank_14",
+      "ledger_id": "ledger_9",
+      "method": "fuzzy",
+      "confidence": 1.0,
+      "note": "amount diff=1.0, date diff=0d, ref_sim=100.0"
+    },
+    {
+      "bank_id": "bank_15",
+      "ledger_id": "ledger_10",
+      "method": "fuzzy",
+      "confidence": 1.0,
+      "note": "amount diff=2.0, date diff=0d, ref_sim=100.0"
+    },
+    {
+      "bank_id": "bank_16",
+      "ledger_id": "ledger_12",
+      "method": "fuzzy",
+      "confidence": 1.0,
+      "note": "amount diff=2.0, date diff=0d, ref_sim=100.0"
+    },
+    {
+      "bank_id": "bank_17",
+      "ledger_id": "ledger_13",
+      "method": "fuzzy",
+      "confidence": 1.0,
+      "note": "amount diff=1.0, date diff=0d, ref_sim=100.0"
+    },
+    {
+      "bank_id": "bank_18",
+      "ledger_id": "ledger_14",
+      "method": "fuzzy",
+      "confidence": 1.0,
+      "note": "amount diff=0.0, date diff=2d, ref_sim=100.0"
+    },
+    {
+      "bank_id": "bank_19",
+      "ledger_id": "ledger_15",
+      "method": "fuzzy",
+      "confidence": 1.0,
+      "note": "amount diff=0.0, date diff=2d, ref_sim=100.0"
+    },
+    {
+      "bank_id": "bank_20",
+      "ledger_id": "ledger_16",
+      "method": "fuzzy",
+      "confidence": 1.0,
+      "note": "amount diff=0.0, date diff=1d, ref_sim=100.0"
+    },
+    {
+      "bank_id": "bank_22",
+      "ledger_id": "ledger_19",
+      "method": "fuzzy",
+      "confidence": 0.86,
+      "note": "amount diff=0.0, date diff=0d, ref_sim=85.71428571428572"
+    },
+    {
+      "bank_id": "bank_28",
+      "ledger_id": "ledger_25",
+      "method": "fuzzy",
+      "confidence": 0.86,
+      "note": "amount diff=0.0, date diff=0d, ref_sim=85.71428571428572"
+    },
+    {
+      "bank_id": "bank_29",
+      "ledger_id": "ledger_26",
+      "method": "fuzzy",
+      "confidence": 1.0,
+      "note": "amount diff=0.0, date diff=2d, ref_sim=100.0"
+    },
+    {
+      "bank_id": "bank_30",
+      "ledger_id": "ledger_27",
+      "method": "fuzzy",
+      "confidence": 1.0,
+      "note": "amount diff=0.0, date diff=1d, ref_sim=100.0"
+    },
+    {
+      "bank_id": "bank_36",
+      "ledger_id": "ledger_31",
+      "method": "fuzzy",
+      "confidence": 1.0,
+      "note": "amount diff=0.0, date diff=1d, ref_sim=100.0"
+    },
+    {
+      "bank_id": "bank_39",
+      "ledger_id": "ledger_33",
+      "method": "fuzzy",
+      "confidence": 1.0,
+      "note": "amount diff=0.0, date diff=1d, ref_sim=100.0"
+    },
+    {
+      "bank_id": "bank_40",
+      "ledger_id": "ledger_34",
+      "method": "fuzzy",
+      "confidence": 1.0,
+      "note": "amount diff=2.0, date diff=0d, ref_sim=100.0"
+    },
+    {
+      "bank_id": "bank_41",
+      "ledger_id": "ledger_35",
+      "method": "fuzzy",
+      "confidence": 0.86,
+      "note": "amount diff=0.0, date diff=0d, ref_sim=85.71428571428572"
+    },
+    {
+      "bank_id": "bank_42",
+      "ledger_id": "ledger_36",
+      "method": "fuzzy",
+      "confidence": 1.0,
+      "note": "amount diff=0.0, date diff=1d, ref_sim=100.0"
+    },
+    {
+      "bank_id": "bank_44",
+      "ledger_id": "ledger_38",
+      "method": "fuzzy",
+      "confidence": 0.86,
+      "note": "amount diff=0.0, date diff=0d, ref_sim=85.71428571428572"
+    },
+    {
+      "bank_id": "bank_45",
+      "ledger_id": "ledger_39",
+      "method": "fuzzy",
+      "confidence": 1.0,
+      "note": "amount diff=1.5, date diff=0d, ref_sim=100.0"
+    },
+    {
+      "bank_id": "bank_49",
+      "ledger_id": "ledger_42",
+      "method": "fuzzy",
+      "confidence": 0.86,
+      "note": "amount diff=0.0, date diff=0d, ref_sim=85.71428571428572"
+    },
+    {
+      "bank_id": "bank_57",
+      "ledger_id": "ledger_47",
+      "method": "fuzzy",
+      "confidence": 0.86,
+      "note": "amount diff=0.0, date diff=0d, ref_sim=85.71428571428572"
+    },
+    {
+      "bank_id": "bank_59",
+      "ledger_id": "ledger_50",
+      "method": "fuzzy",
+      "confidence": 1.0,
+      "note": "amount diff=0.0, date diff=2d, ref_sim=100.0"
+    },
+    {
+      "bank_id": "bank_67",
+      "ledger_id": "ledger_55",
+      "method": "fuzzy",
+      "confidence": 1.0,
+      "note": "amount diff=0.5, date diff=0d, ref_sim=100.0"
+    },
+    {
+      "bank_id": "bank_70",
+      "ledger_id": "ledger_59",
+      "method": "fuzzy",
+      "confidence": 1.0,
+      "note": "amount diff=0.5, date diff=0d, ref_sim=100.0"
+    },
+    {
+      "bank_id": "bank_71",
+      "ledger_id": "ledger_60",
+      "method": "fuzzy",
+      "confidence": 0.86,
+      "note": "amount diff=0.0, date diff=0d, ref_sim=85.71428571428572"
+    },
+    {
+      "bank_id": "bank_73",
+      "ledger_id": "ledger_62",
+      "method": "fuzzy",
+      "confidence": 1.0,
+      "note": "amount diff=0.0, date diff=1d, ref_sim=100.0"
+    },
+    {
+      "bank_id": "bank_76",
+      "ledger_id": "ledger_64",
+      "method": "fuzzy",
+      "confidence": 1.0,
+      "note": "amount diff=0.0, date diff=1d, ref_sim=100.0"
+    },
+    {
+      "bank_id": "bank_77",
+      "ledger_id": "ledger_65",
+      "method": "fuzzy",
+      "confidence": 1.0,
+      "note": "amount diff=2.0, date diff=0d, ref_sim=100.0"
+    },
+    {
+      "bank_id": "bank_6+bank_7",
+      "ledger_id": "ledger_4",
+      "method": "split_payment_rule",
+      "confidence": 0.9,
+      "note": "two bank entries (4707.8+3138.53) sum to ledger amount 7846.33"
+    },
+    {
+      "bank_id": "bank_24+bank_25",
+      "ledger_id": "ledger_23",
+      "method": "split_payment_rule",
+      "confidence": 0.9,
+      "note": "two bank entries (29571.76+19714.5) sum to ledger amount 49286.26"
+    },
+    {
+      "bank_id": "bank_26+bank_27",
+      "ledger_id": "ledger_24",
+      "method": "split_payment_rule",
+      "confidence": 0.9,
+      "note": "two bank entries (3826.45+2550.96) sum to ledger amount 6377.41"
+    },
+    {
+      "bank_id": "bank_34+bank_35",
+      "ledger_id": "ledger_30",
+      "method": "split_payment_rule",
+      "confidence": 0.9,
+      "note": "two bank entries (34277.88+22851.92) sum to ledger amount 57129.8"
+    },
+    {
+      "bank_id": "bank_61+bank_62",
+      "ledger_id": "ledger_52",
+      "method": "split_payment_rule",
+      "confidence": 0.9,
+      "note": "two bank entries (8049.05+5366.04) sum to ledger amount 13415.09"
+    },
+    {
+      "bank_id": "bank_63+bank_64",
+      "ledger_id": "ledger_53",
+      "method": "split_payment_rule",
+      "confidence": 0.9,
+      "note": "two bank entries (40458.43+26972.28) sum to ledger amount 67430.71"
+    },
+    {
+      "bank_id": "bank_65+bank_66",
+      "ledger_id": "ledger_54",
+      "method": "split_payment_rule",
+      "confidence": 0.9,
+      "note": "two bank entries (30537.94+20358.62) sum to ledger amount 50896.56"
+    }
+  ],
+  "exceptions": [
+    {
+      "side": "bank",
+      "id": "bank_1",
+      "ref": "TXN1000",
+      "amount": 54531.56,
+      "date": "2026-07-02",
+      "reason": "no plausible ledger counterpart found (possible unrecorded transaction)"
+    },
+    {
+      "side": "bank",
+      "id": "bank_3",
+      "ref": "TXN1001",
+      "amount": 63161.02,
+      "date": "2026-07-16",
+      "reason": "no plausible ledger counterpart found (possible unrecorded transaction)"
+    },
+    {
+      "side": "bank",
+      "id": "bank_8",
+      "ref": "TXN1005",
+      "amount": 3185.64,
+      "date": "2026-07-06",
+      "reason": "no plausible ledger counterpart found (possible unrecorded transaction)"
+    },
+    {
+      "side": "bank",
+      "id": "bank_13",
+      "ref": "TXN1010",
+      "amount": 19127.23,
+      "date": "2026-08-07",
+      "reason": "no plausible ledger counterpart found (possible unrecorded transaction)"
+    },
+    {
+      "side": "bank",
+      "id": "bank_21",
+      "ref": "TXN1019",
+      "amount": 62162.34,
+      "date": "2026-08-04",
+      "reason": "needs_llm_review (amount within \u20b9500 of an unmatched ledger row)"
+    },
+    {
+      "side": "bank",
+      "id": "bank_31",
+      "ref": "TXN1029",
+      "amount": 23988.77,
+      "date": "2026-08-10",
+      "reason": "no plausible ledger counterpart found (possible unrecorded transaction)"
+    },
+    {
+      "side": "bank",
+      "id": "bank_33",
+      "ref": "TXN1031",
+      "amount": 31780.29,
+      "date": "2026-07-18",
+      "reason": "needs_llm_review (amount within \u20b9500 of an unmatched ledger row)"
+    },
+    {
+      "side": "bank",
+      "id": "bank_38",
+      "ref": "TXN1034",
+      "amount": 6533.51,
+      "date": "2026-08-10",
+      "reason": "no plausible ledger counterpart found (possible unrecorded transaction)"
+    },
+    {
+      "side": "bank",
+      "id": "bank_47",
+      "ref": "TXN1042",
+      "amount": 23124.1,
+      "date": "2026-07-14",
+      "reason": "no plausible ledger counterpart found (possible unrecorded transaction)"
+    },
+    {
+      "side": "bank",
+      "id": "bank_51",
+      "ref": "TXN1046",
+      "amount": 33930.9,
+      "date": "2026-08-11",
+      "reason": "needs_llm_review (amount within \u20b9500 of an unmatched ledger row)"
+    },
+    {
+      "side": "bank",
+      "id": "bank_53",
+      "ref": "TXN1047",
+      "amount": 39272.98,
+      "date": "2026-07-17",
+      "reason": "no plausible ledger counterpart found (possible unrecorded transaction)"
+    },
+    {
+      "side": "bank",
+      "id": "bank_55",
+      "ref": "TXN1048",
+      "amount": 12298.76,
+      "date": "2026-08-05",
+      "reason": "no plausible ledger counterpart found (possible unrecorded transaction)"
+    },
+    {
+      "side": "bank",
+      "id": "bank_60",
+      "ref": "TXN1054",
+      "amount": 64390.59,
+      "date": "2026-07-08",
+      "reason": "needs_llm_review (amount within \u20b9500 of an unmatched ledger row)"
+    },
+    {
+      "side": "bank",
+      "id": "bank_75",
+      "ref": "TXN1066",
+      "amount": 774.23,
+      "date": "2026-07-17",
+      "reason": "no plausible ledger counterpart found (possible unrecorded transaction)"
+    },
+    {
+      "side": "bank",
+      "id": "bank_78",
+      "ref": "TXN1069",
+      "amount": 74058.82,
+      "date": "2026-07-20",
+      "reason": "no plausible ledger counterpart found (possible unrecorded transaction)"
+    },
+    {
+      "side": "ledger",
+      "id": "ledger_11",
+      "ref": "TXN1013",
+      "amount": 59492.78,
+      "date": "2026-07-22",
+      "reason": "no bank entry received yet (possible pending payment)"
+    },
+    {
+      "side": "ledger",
+      "id": "ledger_17",
+      "ref": "TXN1019-CAND1",
+      "amount": 62192.34,
+      "date": "2026-08-04",
+      "reason": "needs_llm_review (amount within \u20b9500 of an unmatched bank row)"
+    },
+    {
+      "side": "ledger",
+      "id": "ledger_18",
+      "ref": "TXN1019-CAND2",
+      "amount": 62127.34,
+      "date": "2026-08-04",
+      "reason": "needs_llm_review (amount within \u20b9500 of an unmatched bank row)"
+    },
+    {
+      "side": "ledger",
+      "id": "ledger_21",
+      "ref": "TXN1022",
+      "amount": 70584.69,
+      "date": "2026-08-09",
+      "reason": "no bank entry received yet (possible pending payment)"
+    },
+    {
+      "side": "ledger",
+      "id": "ledger_22",
+      "ref": "TXN1023",
+      "amount": 75320.67,
+      "date": "2026-07-24",
+      "reason": "no bank entry received yet (possible pending payment)"
+    },
+    {
+      "side": "ledger",
+      "id": "ledger_29",
+      "ref": "TXN1031",
+      "amount": 31780.29,
+      "date": "2026-07-14",
+      "reason": "needs_llm_review (amount within \u20b9500 of an unmatched bank row)"
+    },
+    {
+      "side": "ledger",
+      "id": "ledger_48",
+      "ref": "TXN1051",
+      "amount": 34249.34,
+      "date": "2026-07-15",
+      "reason": "needs_llm_review (amount within \u20b9500 of an unmatched bank row)"
+    },
+    {
+      "side": "ledger",
+      "id": "ledger_51",
+      "ref": "TXN1054",
+      "amount": 64363.59,
+      "date": "2026-07-08",
+      "reason": "needs_llm_review (amount within \u20b9500 of an unmatched bank row)"
+    },
+    {
+      "side": "ledger",
+      "id": "ledger_56",
+      "ref": "TXN1059",
+      "amount": 45210.16,
+      "date": "2026-08-05",
+      "reason": "no bank entry received yet (possible pending payment)"
+    }
+  ]
+}
