@@ -106,6 +106,7 @@ Ambiguous cases can be sent to the AI review layer. The reviewer can see the pro
 
 Project Structure
 
+```text
 ReconAI/
 │
 ├── app.py
@@ -123,6 +124,7 @@ ReconAI/
 │
 ├── .gitignore
 └── README.md
+```
 
 
 Files
