@@ -3,7 +3,7 @@ ReconAI — AI Finance Controller
 Streamlit dashboard for the multi-source reconciliation engine.
 
 Reads ONLY existing output files (reconciliation_report.json, review_queue.json)
-and the three source CSVs. Never modifies reconcile.py, generate_data.py, the
+and the three source CSVs. Never modifies python -m reconai, generate_data.py, the
 CSVs, or reconciliation_report.json. Human review decisions on AI-proposed
 matches are written to a separate review_decisions.json — the original report
 and review queue are never touched.
@@ -53,13 +53,14 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-REPORT_PATH = os.path.join(BASE, "reconciliation_report.json")
-QUEUE_PATH = os.path.join(BASE, "review_queue.json")
-DECISIONS_PATH = os.path.join(BASE, "review_decisions.json")
-BANK_CSV = os.path.join(BASE, "bank_statement.csv")
-LEDGER_CSV = os.path.join(BASE, "internal_ledger.csv")
-INVOICE_CSV = os.path.join(BASE, "invoice_records.csv")
-
+DATA = os.path.join(BASE, "data")
+OUT = os.path.join(BASE, "output")
+REPORT_PATH = os.path.join(OUT, "reconciliation_report.json")
+QUEUE_PATH = os.path.join(OUT, "review_queue.json")
+DECISIONS_PATH = os.path.join(OUT, "review_decisions.json")
+BANK_CSV = os.path.join(DATA, "bank_statement.csv")
+LEDGER_CSV = os.path.join(DATA, "internal_ledger.csv")
+INVOICE_CSV = os.path.join(DATA, "invoice_records.csv")
 
 # ---------------------------------------------------------------------------
 # Loaders — all defensive, no crashes on missing/empty files
@@ -127,7 +128,7 @@ missing_files = [p for p in [REPORT_PATH, BANK_CSV, LEDGER_CSV, INVOICE_CSV] if 
 if missing_files:
     st.error(
         "Missing required file(s): " + ", ".join(os.path.basename(p) for p in missing_files) +
-        ". Run generate_data.py and reconcile.py first."
+        ".Run `python generate_data.py` then `python -m reconai` first.."
     )
     st.stop()
 
@@ -315,7 +316,7 @@ if review_queue:
                         json.dump(decisions, f, indent=2)
                     st.rerun()
 else:
-    st.write("No items currently in the AI review queue. (Set `ANTHROPIC_API_KEY` before running `reconcile.py` to enable AI-assisted proposals for ambiguous cases.)")
+    st.write("No items currently in the AI review queue. (Set `GEMINI_API_KEY` before running `reconcile.py` to enable AI-assisted proposals for ambiguous cases.)")
 
 st.divider()
 

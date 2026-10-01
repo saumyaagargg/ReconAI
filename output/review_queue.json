@@ -5,7 +5,7 @@
     "llm_verdict": {
       "match": true,
       "confidence": 0.95,
-      "reason": "This candidate is an exact match for the party name and transaction date, with only a minor amount discrepancy of 30.0. The alternative candidate represents a completely different party and has a larger amount difference.",
+      "reason": "CAND1 is a perfect match for the party name and date, with a slightly smaller amount difference than CAND2.",
       "best_candidate_ref": "TXN1019-CAND1",
       "ranked_alternatives": [
         "TXN1019-CAND2"
@@ -35,7 +35,7 @@
     "llm_verdict": {
       "match": true,
       "confidence": 0.99,
-      "reason": "Perfect match on amount, reference, and party name with a reasonable 4-day date difference.",
+      "reason": "The reference, party, and amount match exactly. The 4-day date difference is well within a reasonable range for bank settlement.",
       "best_candidate_ref": "TXN1031",
       "ranked_alternatives": [],
       "is_top_recommendation": true
@@ -46,12 +46,12 @@
     "bank_id": "bank_51",
     "ledger_id": "ledger_48",
     "llm_verdict": {
-      "match": null,
-      "confidence": 0,
-      "reason": "LLM call failed or returned invalid JSON: The read operation timed out",
-      "best_candidate_ref": null,
+      "match": true,
+      "confidence": 0.1,
+      "reason": "Only candidate provided, but it is highly unlikely to be a match due to completely different parties (Anderson Group vs Walker LLC), a significant amount discrepancy, and a 27-day date difference.",
+      "best_candidate_ref": "TXN1051",
       "ranked_alternatives": [],
-      "is_top_recommendation": false
+      "is_top_recommendation": true
     },
     "status": "PENDING_HUMAN_REVIEW"
   },
@@ -61,7 +61,7 @@
     "llm_verdict": {
       "match": true,
       "confidence": 0.98,
-      "reason": "The candidate has a perfect match on transaction reference, date, and party name, with only a minor amount difference of 27.0 on a large transaction, likely due to a fee or adjustment.",
+      "reason": "Exact match on transaction reference, party, and date. The minor amount discrepancy of 27.00 on a transaction of over 64,000 (0.04%) is likely due to a fee or bank charge.",
       "best_candidate_ref": "TXN1054",
       "ranked_alternatives": [],
       "is_top_recommendation": true

@@ -1,6 +1,8 @@
-.venv/
 __pycache__/
 *.pyc
 .env
 .env.*
 .streamlit/secrets.toml
+output/review_decisions.json
+.venv/
+.pytest_cache/

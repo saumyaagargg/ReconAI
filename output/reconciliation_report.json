@@ -442,7 +442,7 @@
       "ref": "TXN1019",
       "amount": 62162.34,
       "date": "2026-08-04",
-      "reason": "needs_llm_review (amount within \u20b9500 of an unmatched ledger row)"
+      "reason": "needs_llm_review (amount within the review window of an unmatched ledger row)"
     },
     {
       "side": "bank",
@@ -458,7 +458,7 @@
       "ref": "TXN1031",
       "amount": 31780.29,
       "date": "2026-07-18",
-      "reason": "needs_llm_review (amount within \u20b9500 of an unmatched ledger row)"
+      "reason": "needs_llm_review (amount within the review window of an unmatched ledger row)"
     },
     {
       "side": "bank",
@@ -482,7 +482,7 @@
       "ref": "TXN1046",
       "amount": 33930.9,
       "date": "2026-08-11",
-      "reason": "needs_llm_review (amount within \u20b9500 of an unmatched ledger row)"
+      "reason": "needs_llm_review (amount within the review window of an unmatched ledger row)"
     },
     {
       "side": "bank",
@@ -506,7 +506,7 @@
       "ref": "TXN1054",
       "amount": 64390.59,
       "date": "2026-07-08",
-      "reason": "needs_llm_review (amount within \u20b9500 of an unmatched ledger row)"
+      "reason": "needs_llm_review (amount within the review window of an unmatched ledger row)"
     },
     {
       "side": "bank",
@@ -538,7 +538,7 @@
       "ref": "TXN1019-CAND1",
       "amount": 62192.34,
       "date": "2026-08-04",
-      "reason": "needs_llm_review (amount within \u20b9500 of an unmatched bank row)"
+      "reason": "needs_llm_review (amount within the review window of an unmatched bank row)"
     },
     {
       "side": "ledger",
@@ -546,7 +546,7 @@
       "ref": "TXN1019-CAND2",
       "amount": 62127.34,
       "date": "2026-08-04",
-      "reason": "needs_llm_review (amount within \u20b9500 of an unmatched bank row)"
+      "reason": "needs_llm_review (amount within the review window of an unmatched bank row)"
     },
     {
       "side": "ledger",
@@ -570,7 +570,7 @@
       "ref": "TXN1031",
       "amount": 31780.29,
       "date": "2026-07-14",
-      "reason": "needs_llm_review (amount within \u20b9500 of an unmatched bank row)"
+      "reason": "needs_llm_review (amount within the review window of an unmatched bank row)"
     },
     {
       "side": "ledger",
@@ -578,7 +578,7 @@
       "ref": "TXN1051",
       "amount": 34249.34,
       "date": "2026-07-15",
-      "reason": "needs_llm_review (amount within \u20b9500 of an unmatched bank row)"
+      "reason": "needs_llm_review (amount within the review window of an unmatched bank row)"
     },
     {
       "side": "ledger",
@@ -586,7 +586,7 @@
       "ref": "TXN1054",
       "amount": 64363.59,
       "date": "2026-07-08",
-      "reason": "needs_llm_review (amount within \u20b9500 of an unmatched bank row)"
+      "reason": "needs_llm_review (amount within the review window of an unmatched bank row)"
     },
     {
       "side": "ledger",
